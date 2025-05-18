@@ -1,0 +1,27 @@
+
+body {
+  background: black;
+  color: crimson;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 50px;
+}
+.intro {
+  animation: fadeIn 3s ease-in;
+}
+.fire-skulls img {
+  height: 100px;
+  margin: 10px;
+}
+.runas {
+  font-size: 2em;
+  margin-top: 20px;
+}
+.mensaje {
+  font-size: 1.2em;
+  color: #ffcccc;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
